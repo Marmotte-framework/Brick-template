@@ -1,0 +1,30 @@
+{
+  "name": "vendor/brick-name",
+  "description": "Brick description",
+  "type": "marmotte-brick",
+  "require": {
+    "php": ">=8.1",
+    "marmotte/brick": "^1.2"
+  },
+  "require-dev": {
+    "vimeo/psalm": "^5.9",
+    "phpunit/phpunit": "^10.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vendor\\BrickName\\": "src/"
+    },
+    "classmap": [
+      "src/"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Vendor\\BrickName\\": "tests/"
+    }
+  },
+  "scripts": {
+    "psalm": "psalm",
+    "test": "phpunit tests"
+  }
+}
