@@ -25,12 +25,10 @@
 
 declare(strict_types=1);
 
-use PHPUnit\Framework\TestCase;
+namespace Vendor\BrickName;
 
-class Test extends TestCase
+use Marmotte\Brick\Brick;
+
+final class MyBrick implements Brick
 {
-    public function testItPass(): void
-    {
-        self::assertTrue(true);
-    }
 }
