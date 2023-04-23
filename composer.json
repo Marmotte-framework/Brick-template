@@ -1,7 +1,7 @@
 {
-  "name": "vendor/brick-name",
-  "description": "Brick description",
-  "type": "marmotte-brick",
+  "name": "marmotte/brick-template",
+  "description": "Brick template",
+  "type": "project",
   "require": {
     "php": ">=8.1",
     "marmotte/brick": "^1.2"
@@ -12,7 +12,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Vendor\\BrickName\\": "src/"
+      "Marmotte\\BrickName\\": "src/"
     },
     "classmap": [
       "src/"
@@ -20,7 +20,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Vendor\\BrickName\\": "tests/"
+      "Marmotte\\BrickName\\": "tests/"
     }
   },
   "scripts": {
