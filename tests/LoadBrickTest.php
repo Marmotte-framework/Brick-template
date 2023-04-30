@@ -26,7 +26,6 @@
  * For more information, please refer to <https://unlicense.org>
  */
 
-
 declare(strict_types=1);
 
 namespace Marmotte\BrickName;
