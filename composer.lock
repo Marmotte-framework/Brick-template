@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c604c2addaa54f02a7ea73434e21c22d",
+    "content-hash": "3b9c04a8fd39a9697f71194b23a06f74",
     "packages": [
         {
             "name": "composer/class-map-generator",
@@ -152,16 +152,16 @@
         },
         {
             "name": "marmotte/brick",
-            "version": "v1.2.0",
+            "version": "v1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Marmotte-framework/Brick.git",
-                "reference": "5e132efbb70834eff09908d76374a9942009d182"
+                "reference": "767bf5f8444494a62f3b6d074fab99a21ccce009"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Marmotte-framework/Brick/zipball/5e132efbb70834eff09908d76374a9942009d182",
-                "reference": "5e132efbb70834eff09908d76374a9942009d182",
+                "url": "https://api.github.com/repos/Marmotte-framework/Brick/zipball/767bf5f8444494a62f3b6d074fab99a21ccce009",
+                "reference": "767bf5f8444494a62f3b6d074fab99a21ccce009",
                 "shasum": ""
             },
             "require": {
@@ -178,8 +178,8 @@
                 "psr-4": {
                     "Marmotte\\Brick\\": "src/"
                 },
-                "classmap": [
-                    "src/"
+                "exclude-from-classmap": [
+                    "tests/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -201,7 +201,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Marmotte-framework/Brick/issues",
-                "source": "https://github.com/Marmotte-framework/Brick/tree/v1.2.0"
+                "source": "https://github.com/Marmotte-framework/Brick/tree/v1.2.3"
             },
             "funding": [
                 {
@@ -209,7 +209,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-04-22T07:58:06+00:00"
+            "time": "2023-04-30T12:39:42+00:00"
         },
         {
             "name": "symfony/finder",
