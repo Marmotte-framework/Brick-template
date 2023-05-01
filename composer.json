@@ -1,13 +1,26 @@
 {
     "name": "marmotte/brick-template",
     "description": "Brick template",
-    "type": "project",
+    "type": "marmotte-brick",
     "keywords": [
         "marmotte",
         "template",
         "brick"
     ],
+    "homepage": "https://github.com/Marmotte-framework/Brick-template",
     "license": "UNLICENSE",
+    "authors": [
+        {
+            "name": "Kevin Traini",
+            "email": "kevin@ktraini.com"
+        }
+    ],
+    "funding": [
+        {
+            "type": "patreon",
+            "url": "https://www.patreon.com/gashmob"
+        }
+    ],
     "require": {
         "php": ">=8.1",
         "marmotte/brick": "^1.2"
